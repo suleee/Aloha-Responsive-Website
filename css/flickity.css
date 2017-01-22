@@ -128,3 +128,15 @@ http://flickity.metafizzy.co
 .flickity-page-dots .dot.is-selected {
   opacity: 1;
 }
+
+
+
+/*@media all and (min-width: 1240px) {
+
+.flickity-viewport {
+  overflow: hidden;
+  position: relative;
+  right: 50px;
+}
+
+}*/

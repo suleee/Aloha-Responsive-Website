@@ -1,16 +1,24 @@
 
-// $('#email-form').on('submit', function(event) {
-//    event.preventDefault();
+
+// email button
+$(function() {
+  $('#submit').click(function(event) {
+   event.preventDefault();
     
+   var email = $("#email").val();
 
-//    if ( $('.username').val() == '' ) {
-//       alert('You missed the field.');
-//    } else {
-//       alert('Thanks for filling the field!');
-//    }
-// });
+   if (email == '' ) {
+      alert('You missed the field.');
+   } else {
+      alert('Thanks for filling the field!');
+   }
+ });
+});
 
-// anchor point
+
+
+
+// smooth scrolling: anchor point
 $(function() {
   $('a[href*="#"]:not([href="#"])').click(function() {
     if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && location.hostname == this.hostname) {
@@ -30,9 +38,8 @@ $(function() {
 
 // items
 $(function(){
-
   $(".item-list").flickity({
-      cellAlign: 'right',
+    cellAlign: 'right',
     contain: true,
     percentPosition: false,
     imagesLoaded: true,
@@ -42,13 +49,21 @@ $(function(){
 });
 
 
-// items
-$(function(){
+// cart button
+// $(function(){
 
-  $("..item-list button").on('click',function(event){
-    event
-  });
-});
+//   $(".item-list button").on('click',function(event){
+//     event.preventDefault();
+//       var  circle = $('counter')
+
+//      if ($(this).is('click'){
+//       $('').show(); 
+//       ;
+//    } else {
+//       $(circle).hide();
+//    }
+//   });
+// });
 
 
 
