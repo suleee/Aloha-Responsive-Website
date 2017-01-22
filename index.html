@@ -7,11 +7,14 @@
 		<meta name ="viewport" content="width=device-width, initial-scale=1">
 		<title>Aloha Apparel</title>
 		<!-- reset.css and style.css-->
-		<link rel="stylesheet" href="reset.css">
+		<link rel="stylesheet" href="css/reset.css">
+		
 		<link rel="stylesheet" type=text/css  href="style.css">
+		<link rel="stylesheet" href="css/flickity.css">
 
 		<!-- icon link -->
 		<script src="https://use.fontawesome.com/1679034438.js"></script>
+
 
 	</head>
 	<body>
@@ -25,18 +28,18 @@
 				<div class="cart">
 					<img class="cart" src="images/cart-icon.svg">
 				</div>
-				<nav class ="navi">
+				<nav class ="navi" id="page-wrap">
 					<ul class = "nav-list">
-					<li><a href="#">About</a></li>
-					<li><a href="#">Shop</a></li>
-					<li><a href="#">Featured</a></li>
-					<li><a href="#">Updates</a></li>
+					<li><a href="#about">About</a></li>
+					<li><a href="#shop">Shop</a></li>
+					<li><a href="#featured">Featured</a></li>
+					<li><a href="#updates">Updates</a></li>
 					<ul>
 				</nav>
 			</div>
 		</div>
 	
-		<section class="mainbanner">
+		<section class="mainbanner" id="about">
 			<div class="mainbanner-t">
 				<p class="text1">new collection</p>
 				<p class="text2">Spring/Summer 2016</p>
@@ -50,7 +53,7 @@
 		</section>
 
 		<section>
-			<div class="box-img">
+			<div class="box-img" id="shop">
 				<div class="box box01"></div>
 				<div class="box box02"></div>
 				<div class="box box03"></div>
@@ -62,14 +65,15 @@
 		</section>
 		
 		<section>
-			<div class="items">
-				<h2>Most-Loved <span class="bold">Products</span></h2>
+			<div class="items" id="featured">
+				<h2>Most-Loved <span>Products</span></h2>
 				<ul class="item-list">
 					<li class="item-dress item-product">
 						<img class ="img-size" src="images/stretch-knit-dress.jpg">
 						<p>Dress</p>
 						<h3>Stretch Knit Dress</h3>
 						<p class="i-price">$169.00</p>
+						<button>Add to Cart</button>
 					</li>
 
 					<li class ="item-shirt item-product">
@@ -77,35 +81,38 @@
 					<p>Shirts</p>
 					<h3>Cotton Blue Shirt</h3>
 					<p class="i-price">$89.00</p>
+					<button>Add to Cart</button>
 					</li>
 								
 					<li class ="item-sdress item-product"><img class ="img-size" src="images/checked-stretch-dress.jpg">
 						<p>Dresses</p>
 						<h3>Checked Stretch Dress</h3>
 						<p class="i-price">$129.00</p>
+						<button>Add to Cart</button>
 					</li>
 
 					<li class ="item-bpack item-product"><img class ="img-size" src="images/blue-hipster-backpack.jpg">
 						<p>Bags</p>
 						<h3>Blue Hipster Backpack</h3>
 						<p class="i-price">$69.00</p>
+						<button>Add to Cart</button>
 					</li>
 				</ul>
 			</div>
 		</section>
 
 		<section>
-			<div class="sign-bg">
+			<div class="sign-bg" id="updates">
 				<div class="sign-up">
 					<h2 class="sign-t">Sign-up for <span class ="bold2">Updates</span></h2>
 					<p class="sign-p">Stay updated on our latest product releases, be first to find out about upcoming sales, and get free style tips from our blog. Unsubscribe at any time.</p> 
 					
-					<form>
-					      <input type ="text" name="Username" placeholder="Your Email" ></input>
-					      <button class ="button">Subscribe</button>
-				    	</form>
-				</div>
-				
+					<form id="email-form">
+					     <input type ="text" name="username" placeholder="Your Email"></input>
+					     <button type="submit">Subscribe</button>
+					     <!-- input name===class, button type===sumbit  -->
+				    </form>
+				</div>	
 			</div>
 		</section>
 
@@ -158,9 +165,10 @@
 			</div>
 		</footer>
 		
-	
-		<script src="js/jquery-3.1.1.js"></script>
+			<script src="js/jquery-3.1.1.js"></script>
+		<script src="js/flickity.pkgd.min.js"></script>
     	<script src="js/main.js"></script>
+    
 	</div>
 	</body>
 
