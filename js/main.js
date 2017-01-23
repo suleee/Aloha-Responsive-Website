@@ -37,11 +37,11 @@ $(function() {
 // items
 $(function(){
   $(".item-list").flickity({
-    cellAlign: 'right',
+    cellAlign: 'center',
     contain: true,
-    percentPosition: false,
+    percentPosition: true,
     imagesLoaded: true,
-    // autoPlay: true,
+    autoPlay: true,
     prevNextButtons: false
   });
 });

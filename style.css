@@ -336,10 +336,11 @@ p{
 }
 
 .box02{
-	background: linear-gradient( to bottom, rgba(0,0,0,0) 0%, rgba(0,0,0,0) 100% ),
+	background: linear-gradient( to bottom, rgba(0,0,0,0.25) 0%, rgba(0,0,0,0.25) 100% ),
 		url(images/trends-category.jpg)no-repeat left;
 	background-size: contain, cover;
 	padding: 25% 0;
+
 	border-left: 0;
 	flex: 1 0 48%;
 }
@@ -354,7 +355,7 @@ p{
 }
 
 .box04{
-	background: linear-gradient( to bottom, rgba(0,0,0,0) 0%, rgba(0,0,0,0) 100% ),
+	background: linear-gradient( to bottom, rgba(0,0,0,0.25) 0%, rgba(0,0,0,0.25) 100% ),
 		url(images/sale-category.jpg)no-repeat bottom;
 	background-size: contain, cover;
 	background-color: red;
@@ -464,7 +465,7 @@ ul{
 }
 
 .item-list li {
-	padding: 30px 100px 20px 352px;
+	padding: 30px 120px 20px 130px;
 	
 }
 
@@ -772,20 +773,20 @@ button:focus{
 /*content: image boxes*/
 
 	.box01 {
-		background: linear-gradient( to bottom, rgba(0,0,0,0) 0%, rgba(0,0,0,0) 100% ),
+		background: linear-gradient( to bottom, rgba(0,0,0,0.25) 0%, rgba(0,0,0,0.25) 100% ),
 			url(images/mens-category.jpg)no-repeat bottom;
 		background-size: contain, cover;
-		padding: 10% 0;
+		padding: 11% 0;
 		border-left: 0;
-		border-right: 4px solid white;
+		border-right: 8px solid white;
 		flex: 1 0 50%;
 	}
 
 	.box02{
-		background: linear-gradient( to bottom, rgba(0,0,0,0) 0%, rgba(0,0,0,0) 100% ),
+		background: linear-gradient( to bottom, rgba(0,0,0,0.25) 0%, rgba(0,0,0,0.25) 100% ),
 			url(images/trends-category.jpg)no-repeat left;
 		background-size: contain, cover;
-		padding: 10% 0;
+		padding: 11% 0;
 
 		flex: 1 0 25%;
 	}
@@ -794,17 +795,17 @@ button:focus{
 		background: linear-gradient( to bottom, rgba(0,0,0,0.25) 0%, rgba(0,0,0,0.25) 100% ),
 			url(images/glasses-category.jpg)no-repeat left;
 		background-size: contain, cover;
-		padding: 10% 0;
+		padding: 11% 0;
 		border-right: 0;
 		flex: 1 0 25%;
 	}
 
 	.box04{
-		background: linear-gradient( to bottom, rgba(0,0,0,0) 0%, rgba(0,0,0,0) 100% ),
+		background: linear-gradient( to bottom, rgba(0,0,0,0.25) 0%, rgba(0,0,0,0.25) 100% ),
 			url(images/sale-category.jpg)no-repeat bottom;
 		background-size: contain, cover;
 		background-color: red;
-		padding: 10% 0;
+		padding: 11% 0;
 		border-left: 0;
 		flex: 1 0 24%;
 	}
@@ -814,8 +815,8 @@ button:focus{
 			url(images/bags-category.jpg)no-repeat left;
 		background-size: contain, cover;
 		background-color: black;
-		padding: 10% 0;
-		border-right: 4px solid white;
+		padding: 11% 0;
+		border-right: 8px solid white;
 		flex: 0 0 24%;
 	}
 
@@ -824,7 +825,7 @@ button:focus{
 			url(images/womens-category.jpg)no-repeat left;
 		background-size: contain, cover;
 		background-color: black;
-		padding: 10% 0;
+		padding: 11% 0;
 	
 		border-right: 0;
 		flex: 0 0 50%;
@@ -857,10 +858,6 @@ button:focus{
 
 
 	/*content: itmes*/
-	ul{
-		padding-left: 0px;
-
-	}
 
 	.items{
 		margin: 55px 0 0 0;
@@ -869,6 +866,7 @@ button:focus{
 
 	.item-list{
 		margin-top: 50px;
+	
 	}
 
 	.item-dress{
@@ -1127,8 +1125,8 @@ button:focus{
 
 
 	/*content: itmes*/
-	ul{
-		padding: 0 50px 0 50px;
+	.item-list{
+		padding: 0 0px 0 0px;
 	}
 
 	.img-size{
