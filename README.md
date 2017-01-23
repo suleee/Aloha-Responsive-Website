@@ -10,4 +10,5 @@ This is the second part of Project 1, it is level-up the Aloha Apparel Co. websi
 
 <!-- ![alt tag](http://url/to/img.png) -->
 
-#Learning point
+<!-- #Learning point
+ -->
