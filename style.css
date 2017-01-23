@@ -926,7 +926,6 @@ button:focus{
 		position: relative;
 		right:1px;
 		margin-top: 20px;
-
 	}
 
 
@@ -955,6 +954,8 @@ button:focus{
 	.contact{
 		margin: 20px 0 20px 0;
 	}
+
+
 
 
 /*sns icons*/	
@@ -1150,6 +1151,40 @@ button:focus{
 	.flickity-page-dots li{
 		padding: 0px;
 	}
+
+
+
+
+	/*conetent: sign up section*/
+	.sign-up{	
+		padding: 50px 2px 0 2px;
+		max-width: 663px;
+		margin: auto;
+
+	}
+/*
+	.sign-t{
+		font-size: 2.5rem;
+		color: white;
+		text-shadow: 0.07rem 0.07rem 0.21rem #888888;
+		font-family: 'playfair_displayitalic', 'Times New Roman', 'Time', serif;
+	}
+
+	.sign-t span{
+		font-family: 'playfair_displaybold', 'Times New Roman', 'Time', serif;
+	}*/
+
+	.sign-p{
+		margin: 1rem auto;
+	/*	width: 95%;*/
+		font-size: 1.3rem;
+		line-height: 2.5rem;
+		color: white;
+		font-family: 'ralewaylight_Web', 'Helvetica', sans-serif;
+		/*text-shadow:  #888888;*/
+	}
+
+
 
 
 }
