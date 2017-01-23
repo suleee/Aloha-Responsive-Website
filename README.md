@@ -8,6 +8,6 @@ This is the second part of Project 1, it is level-up the Aloha Apparel Co. websi
 * responsive (optimize the website for the three screen sizes: moblie, tablet, desktop)
 
 
-![alt tag](http://url/to/img.png)
+<!-- ![alt tag](http://url/to/img.png) -->
 
 #Learning point
