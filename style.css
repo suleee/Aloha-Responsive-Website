@@ -148,6 +148,7 @@ p{
 
 
 
+
 /*Head section*/
 .header{
 	position: fixed;
@@ -228,6 +229,7 @@ p{
 }*/
 
 
+
 /*head banner*/
 .mainbanner{
 	text-align: center; 
@@ -271,7 +273,7 @@ p{
 
 
 
-/*content: */
+/*content: top text*/
 .head-text{
 	text-align: center;
 	max-width: 600px;
@@ -309,7 +311,6 @@ p{
 	flex: 0 1 auto;
 	display: flex;
 	flex-wrap: wrap;
-
 }
 
 
@@ -517,12 +518,11 @@ ul{
 
 .sign-p{
 	margin: 1rem auto;
-/*	width: 95%;*/
 	font-size: 1.2rem;
 	line-height: 2.5rem;
 	color: white;
 	font-family: 'ralewaylight_Web', 'Helvetica', sans-serif;
-	/*text-shadow:  #888888;*/
+	text-shadow:  0.07rem 0.07rem 0.21rem #888888;
 }
 
 
@@ -537,7 +537,7 @@ ul{
 /*	height: 18rem;*/
 	background-color: #242424;
 	text-align: center;
-	padding-top: 4.5rem;
+	padding-top: 4rem;
 }
 
 .footer p {
@@ -585,8 +585,6 @@ a:hover{
 
 .sns-ul02  {
 	visibility: hidden;
-/*	margin: 0 auto;
-	height: 20px;*/
 }
 
 
@@ -655,14 +653,6 @@ button:focus{
 
 
 
-
-
-
-
-
-
-/*responsive min. 600px*/
-
 /*responsive min. 600px*/
 @media all and (min-width: 600px) {
 
@@ -676,7 +666,7 @@ button:focus{
 
 
 
-/*Head section*/ 
+/*Head section: navigation*/ 
 	.menu{
 		padding: 15px 15px 10px 15px;
 		margin-top: 2px;
@@ -718,8 +708,7 @@ button:focus{
 
 
 
-
-/*head banner*/
+/*head: main banner*/
 	.mainbanner-t{
 			padding-top: 11rem;
 		}
@@ -731,7 +720,6 @@ button:focus{
 	.text2{
 		font-size: 3.5rem;
 		text-align: center;
-/*		padding-top:30px;*/
 		text-shadow: .14rem .14rem .21rem #888888;
 	}
 
@@ -857,7 +845,7 @@ button:focus{
 
 
 
-	/*content: itmes*/
+/*content: items*/
 
 	.items{
 		margin: 55px 0 0 0;
@@ -976,7 +964,6 @@ button:focus{
 
 		margin: 5px 0 0 60px;
 		height: 20px;
-
 	}
 
 	.sns-ul02 li{
@@ -1064,11 +1051,11 @@ button:focus{
 
 /*Head section: head banner*/
 	.mainbanner-t{
-			padding-top: 15.5rem;
-		}
+		padding-top: 15.5rem;
+	}
 
 	.text1{
-	 font-size: 1.4rem;
+		font-size: 1.4rem;
 	}
 
 	.text2{
@@ -1078,9 +1065,7 @@ button:focus{
 		text-shadow: .14rem .14rem .21rem #888888;
 	}
 
-
-	.mainbanner{
-		
+	.mainbanner{		
 		background:linear-gradient(to bottom, rgba(0,0,0,0.25) 0%, rgba(0,0,0,0.25) 100% ),
 			url('images/banner-girl.png') no-repeat center 4rem,
 			url('images/flower-bkgd.jpg') repeat-x center top;
@@ -1090,8 +1075,6 @@ button:focus{
 		margin-top: 101px;
 		position: relative;
 	}
-
-
 
 
 
@@ -1106,7 +1089,7 @@ button:focus{
 		position: absolute;
 		left: 43%;
 		top: 50%;
-		}
+	}
 
 	.box span{
 		color: white;
@@ -1117,7 +1100,7 @@ button:focus{
 		position: absolute;
 		left: 30%;
 		top: 40%;
-		}
+	}
 
 
 
@@ -1140,10 +1123,8 @@ button:focus{
 	}
 
 
-
 	.item-list li {
 		padding: 20px 50px 20px 50px;
-		
 	}
 
 	.flickity-page-dots li{
@@ -1153,28 +1134,17 @@ button:focus{
 
 
 
-	/*conetent: sign up section*/
+/*conetent: sign up section*/
 	.sign-up{	
 		padding: 50px 2px 0 2px;
 		max-width: 663px;
 		margin: auto;
 
 	}
-/*
-	.sign-t{
-		font-size: 2.5rem;
-		color: white;
-		text-shadow: 0.07rem 0.07rem 0.21rem #888888;
-		font-family: 'playfair_displayitalic', 'Times New Roman', 'Time', serif;
-	}
 
-	.sign-t span{
-		font-family: 'playfair_displaybold', 'Times New Roman', 'Time', serif;
-	}*/
 
 	.sign-p{
 		margin: 1rem auto;
-	/*	width: 95%;*/
 		font-size: 1.3rem;
 		line-height: 2.5rem;
 		color: white;
@@ -1184,16 +1154,7 @@ button:focus{
 
 
 
-
-}
-
-
 	
-
-
-
-
-
 
 
 
