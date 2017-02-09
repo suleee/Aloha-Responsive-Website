@@ -171,7 +171,7 @@ p{
 	width: 120px;
 	align-self: flex-start;
 	flex: 0 1 50%
-/*	padding-right: 10px;*/
+
 }
 
 .navi{
@@ -218,15 +218,15 @@ p{
 	position: relative;
 }
 
-/*.counter{
-	width: 20px;
-	height: 20px;
+.counter{
+	width: 40px;
+	height: 40px;
 	border-radius: 20px;
 	background-color: red;
 	position: absolute;
-	left: 250px;
+	left: 170px;
 	z-index: 1;
-}*/
+}
 
 
 
@@ -991,7 +991,7 @@ button:focus{
 	   color: #b64036;
 	}
 
-
+}
 
 
 
@@ -1152,7 +1152,7 @@ button:focus{
 		/*text-shadow:  #888888;*/
 	}
 
-
+}
 
 	
 

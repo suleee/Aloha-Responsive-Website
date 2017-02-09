@@ -48,20 +48,15 @@ $(function(){
 
 
 // cart button
-// $(function(){
+$(function(){
+  $('.counter').hide(); 
+  $('.button').on('click',function(){
 
-//   $(".item-list button").on('click',function(event){
-//     event.preventDefault();
-//       var  circle = $('counter')
+      $('.counter').show().append(); 
+      console.log('.counter');
 
-//      if ($(this).is('click'){
-//       $('').show(); 
-//       ;
-//    } else {
-//       $(circle).hide();
-//    }
-//   });
-// });
+  });
+});
 
 
 // email button: '#submit=button ID'
