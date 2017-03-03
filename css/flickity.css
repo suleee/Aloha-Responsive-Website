@@ -6,7 +6,9 @@ http://flickity.metafizzy.co
   position: relative;
 }
 
-.flickity-enabled:focus { outline: none; }
+.flickity-enabled:focus {
+  outline: none;
+}
 
 .flickity-viewport {
   overflow: hidden;
@@ -20,15 +22,16 @@ http://flickity.metafizzy.co
   height: 100%;
 }
 
+
 /* draggable */
 
 .flickity-enabled.is-draggable {
   -webkit-tap-highlight-color: transparent;
-          tap-highlight-color: transparent;
+  tap-highlight-color: transparent;
   -webkit-user-select: none;
-     -moz-user-select: none;
-      -ms-user-select: none;
-          user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
 }
 
 .flickity-enabled.is-draggable .flickity-viewport {
@@ -41,6 +44,7 @@ http://flickity.metafizzy.co
   cursor: -webkit-grabbing;
   cursor: grabbing;
 }
+
 
 /* ---- previous/next buttons ---- */
 
@@ -56,10 +60,12 @@ http://flickity.metafizzy.co
   cursor: pointer;
   /* vertically center */
   -webkit-transform: translateY(-50%);
-          transform: translateY(-50%);
+  transform: translateY(-50%);
 }
 
-.flickity-prev-next-button:hover { background: white; }
+.flickity-prev-next-button:hover {
+  background: white;
+}
 
 .flickity-prev-next-button:focus {
   outline: none;
@@ -70,13 +76,22 @@ http://flickity.metafizzy.co
   opacity: 0.6;
 }
 
-.flickity-prev-next-button.previous { left: 10px; }
-.flickity-prev-next-button.next { right: 10px; }
+.flickity-prev-next-button.previous {
+  left: 10px;
+}
+
+.flickity-prev-next-button.next {
+  right: 10px;
+}
+
+
 /* right to left */
+
 .flickity-rtl .flickity-prev-next-button.previous {
   left: auto;
   right: 10px;
 }
+
 .flickity-rtl .flickity-prev-next-button.next {
   right: auto;
   left: 10px;
@@ -99,6 +114,7 @@ http://flickity.metafizzy.co
   fill: #333;
 }
 
+
 /* ---- page dots ---- */
 
 .flickity-page-dots {
@@ -112,7 +128,9 @@ http://flickity.metafizzy.co
   line-height: 1;
 }
 
-.flickity-rtl .flickity-page-dots { direction: rtl; }
+.flickity-rtl .flickity-page-dots {
+  direction: rtl;
+}
 
 .flickity-page-dots .dot {
   display: inline-block;
@@ -128,7 +146,6 @@ http://flickity.metafizzy.co
 .flickity-page-dots .dot.is-selected {
   opacity: 1;
 }
-
 
 
 /*@media all and (min-width: 1240px) {
