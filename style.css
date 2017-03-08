@@ -102,7 +102,7 @@ li {
 h3 {
 	color: #e2574c;
 	font-family: 'playfair_display_web', serif;
-	font-size: 21px;
+	font-size: .66rem;
 	margin: auto;
 }
 
@@ -123,7 +123,7 @@ p {
 }
 
 .menu {
-	padding: 15px 10px 10px 10px;
+	padding: 1.07rem .71rem .71rem .71rem;
 	display: -webkit-box;
 	display: -ms-flexbox;
 	display: flex;
@@ -135,7 +135,7 @@ p {
 }
 
 .logo {
-	width: 120px;
+	width: 8.57rem;
 	-ms-flex-item-align: start;
 	    align-self: flex-start;
 	-webkit-box-flex: 0;
@@ -183,7 +183,7 @@ p {
 }
 
 .cart {
-	width: 50px;
+	width: 3.57rem;
 	-ms-flex-item-align: end;
 	    align-self: flex-end;
 	-webkit-box-flex: 0;
@@ -195,9 +195,9 @@ p {
 }
 
 .counter {
-	width: 20px;
-	height: 20px;
-	border-radius: 20px;
+	width: 1.43rem;
+	height: 1.43rem;
+	border-radius: 1.43rem;
 	background-color: #e2574c;
 	position: absolute;
 	padding-top: 1px;
@@ -216,9 +216,9 @@ p {
 	background: -webkit-linear-gradient(top, rgba(0, 0, 0, 0.25) 0%, rgba(0, 0, 0, 0.25) 100%), url('images/banner-girl.png') no-repeat center 4.5rem, url('images/flower-bkgd.jpg') repeat-x center top;
 	background: linear-gradient(to bottom, rgba(0, 0, 0, 0.25) 0%, rgba(0, 0, 0, 0.25) 100%), url('images/banner-girl.png') no-repeat center 4.5rem, url('images/flower-bkgd.jpg') repeat-x center top;
 	background-size: contain, 11rem 26rem, cover;
-	height: 400px;
+	height: 28.57rem;
 	position: relative;
-	margin-top: 105px;
+	margin-top: 7.5rem;
 }
 
 .mainbanner-text {
@@ -252,7 +252,7 @@ p {
 
 .head-text {
 	text-align: center;
-	max-width: 600px;
+	max-width: 42.9rem;
 	margin: auto;
 }
 
@@ -293,12 +293,12 @@ p {
 }
 
 .box {
-	border: 4px solid white;
+	border: .29rem solid white;
 	position: relative;
 }
 
 .box-s {
-	border: 4px solid white;
+	border: .29rem solid white;
 	position: relative;
 }
 
@@ -376,7 +376,7 @@ p {
 .box-s span {
 	color: white;
 	text-transform: uppercase;
-	font-size: 23px;
+	font-size: 1.64rem;
 	font-weight: bold;
 	text-shadow: .14rem .14rem .21rem #888888;
 	position: absolute;
@@ -387,7 +387,7 @@ p {
 .box span {
 	color: white;
 	text-transform: uppercase;
-	font-size: 23px;
+	font-size: 1.64rem;
 	font-weight: bold;
 	text-shadow: .14rem .14rem .21rem #888888;
 	position: absolute;
@@ -403,17 +403,17 @@ ul {
 }
 
 .items {
-	max-width: 1240px;
+	max-width: 88.57rem;
 	margin: 0 auto;
 }
 
 .items h2 {
-	padding-top: 60px;
+	padding-top: 4.29rem;
 	text-align: center;
 }
 
 .item-list {
-	margin-top: 50px;
+	margin-top: 3.57rem;
 }
 
 .item-dress {
@@ -466,15 +466,15 @@ ul {
 }
 
 .item-list button {
-	width: 90px;
-	height: 26px;
+	width: 6.43rem;
+	height: 1.86rem;
 	font-size: 11px;
 	background-color: #242424;
 	position: relative;
-	margin-top: 25px;
+	margin-top: 1.79rem;
 	left: 0px;
 	color: white;
-	border-radius: 20px;
+	border-radius: 1.43rem;
 	border: none;
 }
 
@@ -497,8 +497,8 @@ ul {
 }
 
 .sign-up {
-	padding: 50px 2px 0 2px;
-	max-width: 615px;
+	padding: 3.57rem 2px 0 2px;
+	max-width: 44rem;
 	margin: auto;
 }
 
@@ -662,11 +662,11 @@ input:focus {
 		font-size: 2.8rem;
 	}
 	.wrapper {
-		width: 600px;
+		width: 42.9rem;
 	}
 	/*Head section: navigation*/
 	.menu {
-		padding: 15px 15px 10px 15px;
+		padding: 1.07rem 1.07rem 0.71rem 1.07rem;
 		margin-top: 2px;
 	}
 	.logo {
@@ -725,12 +725,12 @@ input:focus {
 		margin-top: 80px;
 		background: -webkit-linear-gradient(top, rgba(0, 0, 0, 0.25) 0%, rgba(0, 0, 0, 0.25) 100%), url('images/banner-girl.png') no-repeat center 3.5rem, url('images/flower-bkgd.jpg') repeat-x center top;
 		background: linear-gradient(to bottom, rgba(0, 0, 0, 0.25) 0%, rgba(0, 0, 0, 0.25) 100%), url('images/banner-girl.png') no-repeat center 3.5rem, url('images/flower-bkgd.jpg') repeat-x center top;
-		background-size: contain, 155px 379px, cover;
+		background-size: contain, 11.1rem 27.1rem, cover;
 		/*height: 400px;*/
 		/*position: relative;*/
 	}
 	.head-text {
-		max-width: 720px;
+		max-width: 51.4rem;
 		/*margin: auto;*/
 	}
 	.head-t-h {
@@ -792,13 +792,13 @@ input:focus {
 		width: 50%;
 	}
 	.item-list button {
-		width: 100px;
-		height: 30px;
+		width: 7.14rem;
+		height: 2.14rem;
 		font-size: 12px;
 	}
 	/*footer*/
 	.footer {
-		padding-top: 40px;
+		padding-top: 2.86rem;
 	}
 	.f_container {
 		display: -webkit-box;
@@ -807,18 +807,18 @@ input:focus {
 		-webkit-box-pack: justify;
 		    -ms-flex-pack: justify;
 		        justify-content: space-between;
-		margin: 5px 50px 0px 20px;
+		margin: .36rem 3.57rem 0px 1.43rem;
 		height: 14rem;
 	}
 	.footer-text {
-		font-size: 16px;
+		font-size: 1.14rem;
 		text-align: left;
 		padding-left: 10px;
-		height: 200px;
+		height: 14.3rem;
 		position: relative;
 	}
 	.contact {
-		margin: 20px 0 20px 0;
+		margin: 1.43rem 0 1.43rem 0;
 	}
 	/*sns icons*/
 	.sns-ul {
@@ -828,30 +828,25 @@ input:focus {
 		-ms-flex-wrap: wrap;
 		    flex-wrap: wrap;
 		visibility: visible;
-		width: 50px;
+		width: 3.57rem;
 		position: relative;
-		bottom: 24px;
+		bottom: 1.7rem;
 		text-align: left;
 		font-weight: bold;
-		font-size: 16px;
-		margin: 5px 0 0 60px;
-		height: 20px;
-		padding: 10px 100px 0 0;
+		font-size: 1.14rem;
+		margin: 0.36rem 0 0 4.3rem;
+		height: 1.43rem;
+		padding: .72rem 7.14rem 0 0;
 	}
 	.sns-ul li {
-		margin: 6px 0 6px 0;
+		margin: .43rem 0 .43rem 0;
 	}
-	/*.sns-ul a {
-		text-decoration: none;
-	}*/
-	/*.sns-ul i {
-		max-width: 9px;
-	}*/
+
 	.sns-ul span {
 		visibility: visible;
 		font-family: 'ralewaylight_Web', 'Helvetica', sans-serif;
 		text-align: left;
-		padding-left: 20px;
+		padding-left: 1.43rem;
 		font-weight: bold;
 	}
 	.fa {
@@ -867,14 +862,14 @@ input:focus {
 		font-size: 2.8rem;
 	}
 	.wrapper {
-		width: 1240px;
+		width: 88.57rem;
 	}
 	/*Head section: navigation*/
 	.menu {
 		padding: 14px 52px 14px 50px;
 	}
 	.logo {
-		width: 165px;
+		width: 11.79rem;
 		-webkit-box-flex: 0;
 		    -ms-flex: none;
 		        flex: none;
@@ -895,7 +890,7 @@ input:focus {
 		    flex-basis: 60%;
 	}
 	.cart {
-		width: 63px;
+		width: 4.5rem;
 		-webkit-box-flex: 0;
 		    -ms-flex: none;
 		        flex: none;
@@ -906,9 +901,9 @@ input:focus {
 		    flex-basis: 20%;
 	}
 	.nav-list li {
-		padding-top: 6px;
-		margin: 0px 15px 0px 15px;
-		font-size: 16px;
+		padding-top: .43rem;
+		margin: 0px 1.07rem 0px 1.07rem;
+		font-size: 1.14rem;
 	}
 	/*Head section: head banner*/
 	.mainbanner-text {
@@ -920,22 +915,22 @@ input:focus {
 	.text2 {
 		font-size: 4.5rem;
 		text-align: center;
-		padding-top: 3px;
+		padding-top: .21rem;
 		text-shadow: .14rem .14rem .21rem #888888;
 	}
 	.mainbanner {
 		background: -webkit-linear-gradient(top, rgba(0, 0, 0, 0.25) 0%, rgba(0, 0, 0, 0.25) 100%), url('images/banner-girl.png') no-repeat center 4rem, url('images/flower-bkgd.jpg') repeat-x center top;
 		background: linear-gradient(to bottom, rgba(0, 0, 0, 0.25) 0%, rgba(0, 0, 0, 0.25) 100%), url('images/banner-girl.png') no-repeat center 4rem, url('images/flower-bkgd.jpg') repeat-x center top;
-		background-size: cover, 269px 600px, contain;
-		height: 550px;
-		margin-top: 101px;
+		background-size: cover, 19.2rem 42.9rem, contain;
+		height: 39.3rem;
+		margin-top: 7.2rem;
 		position: relative;
 	}
 	/*content: boxes*/
 	.box-s span {
 		color: white;
 		text-transform: uppercase;
-		font-size: 35px;
+		font-size: 2.5rem;
 		font-weight: bold;
 		text-shadow: .14rem .14rem .21rem #888888;
 		position: absolute;
@@ -945,7 +940,7 @@ input:focus {
 	.box span {
 		color: white;
 		text-transform: uppercase;
-		font-size: 35px;
+		font-size: 2.5rem;
 		font-weight: bold;
 		text-shadow: .14rem .14rem .21rem #888888;
 		position: absolute;
@@ -962,15 +957,14 @@ input:focus {
 	}
 	.item-list li {
 		width: 25%;
-		/*padding: 20px 50px 20px 50px;*/
 	}
 	.flickity-page-dots li {
 		padding: 0px;
 	}
 	/*conetent: sign up section*/
 	.sign-up {
-		padding: 50px 2px 0 2px;
-		max-width: 663px;
+		padding: 3.57rem 2px 0 2px;
+		max-width: 47.36rem;
 		margin: auto;
 	}
 	.sign-p {
