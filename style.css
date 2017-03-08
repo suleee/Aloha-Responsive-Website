@@ -77,12 +77,11 @@
 html {
 	font-size: 14px;
 	color: #2d2d2d;
-
 }
 
 body {
 	margin: 0 auto;
-	font-family: 'ralewaylight_Web', sans-serif;
+	font-family: 'ralewaylight_Web', 'Helvetica', sans-serif;
 }
 
 h1 {
@@ -113,6 +112,7 @@ p {
 
 
 /*Head section*/
+
 .header {
 	position: fixed;
 	top: 0;
@@ -146,16 +146,16 @@ p {
 	border-spacing: 100px;
 	text-align: center;
 	padding-top: 5px;
-	margin-bottom: 5px;
-}
-
+	margin-bottom: 5px;}
 .nav-list a {
 	color: #e2574c;
+	font-weight: bold;
 	text-transform: uppercase;
 	text-decoration: none;
-	font-family: 'ralewaymedium', 'Helvetica', sans-serif;
-}
+	font-family: 'ralewaylight_Web', 'Helvetica', sans-serif;
 
+
+}
 .nav-list a:hover,
 .nav-list a:active {
 	color: #b64036;
@@ -193,6 +193,7 @@ p {
 
 
 /*head banner*/
+
 .mainbanner {
 	text-align: center;
 	clear: both;
@@ -212,7 +213,7 @@ p {
 .text1 {
 	color: white;
 	text-transform: uppercase;
-	font-family: 'ralewaylight_Web', sans-serif;
+	font-family: 'ralewaylight_Web', 'Helvetica', sans-serif;
 	font-size: 1.3rem;
 	text-shadow: .14rem .14rem .21rem #888888;
 	font-weight: bold;
@@ -231,6 +232,7 @@ p {
 
 
 /*content: top text*/
+
 .head-text {
 	text-align: center;
 	max-width: 600px;
@@ -363,8 +365,6 @@ ul {
 .items {
 	max-width: 1240px;
 	margin: 0 auto;
-	/*margin: 55px 0 0 0;*/
-	/*text-align: center;*/
 }
 
 .items h2 {
@@ -408,7 +408,7 @@ ul {
 }
 
 .i-price {
-	font-family: 'ralewaymedium';
+	font-family: 'ralewaylight_Web', 'Helvetica', sans-serif;
 }
 
 .item-product h3 {
@@ -426,13 +426,20 @@ ul {
 }
 
 .item-list button {
-	width: 80px;
-	height: 30px;
-	font-size: 10px;
-	background-color: black;
+	width: 90px;
+	height: 26px;
+	font-size: 11px;
+	background-color: #242424;
 	position: relative;
-	margin-top: 20px;
+	margin-top: 25px;
 	left: 0px;
+	color: white;
+	border-radius: 20px;
+	border: none;
+}
+
+.item-list button:hover {
+	background-color: #0f87a2;
 }
 
 
@@ -444,7 +451,7 @@ ul {
 
 .sign-bg {
 	text-align: center;
-	background: linear-gradient(rgba(0, 0, 0, .2) 100%, rgba(0, 0, 0, 0) 0%), url(images/wave-bkgd.jpg) no-repeat bottom;
+	background: linear-gradient(rgba(0, 0, 0, .2) 100%, rgba(0, 0, 0, 0) 0%), url('images/wave-bkgd.jpg') no-repeat bottom;
 	height: 27rem;
 }
 
@@ -458,11 +465,11 @@ ul {
 	font-size: 2.5rem;
 	color: white;
 	text-shadow: 0.07rem 0.07rem 0.21rem #888888;
-	font-family: 'playfair_displayitalic', 'Times New Roman', 'Time', serif;
+	font-family: 'playfair_display_web', 'Time', serif;
 }
 
 .sign-t span {
-	font-family: 'playfair_displaybold', 'Times New Roman', 'Time', serif;
+	font-family: 'playfair_display_web', 'Time', serif;
 }
 
 .sign-p {
@@ -487,7 +494,7 @@ ul {
 
 .footer p {
 	color: white;
-	font-family: 'playfair_displayregular', 'Times New Roman', 'Time', serif;
+	font-family: 'playfair_display_web', 'Time', serif;
 }
 
 .copy p {
@@ -569,7 +576,7 @@ input {
 	border-radius: 2.14rem;
 	width: 27rem;
 	height: 1.78rem;
-	font-family: 'ralewaylight', 'Helvetica', sans-serif;
+	font-family: 'ralewaylight_web', 'Helvetica', sans-serif;
 	;
 	font-size: 1.2rem;
 }
@@ -579,9 +586,9 @@ input:focus {
 	box-shadow: .1rem .1rem .4rem #888888;
 }
 
-button {
+.submit-btn {
 	position: absolute;
-	bottom: .21rem;
+	bottom: .3rem;
 	right: .8rem;
 	width: 7.86rem;
 	height: 2.86rem;
@@ -592,13 +599,13 @@ button {
 	border-radius: 2.14rem;
 }
 
-button:hover,
-button:active {
+.submit-btn:hover,
+.submit-btn:active {
 	outline: none;
 	background-color: #b64036;
 }
 
-button:focus {
+.submit-btn:focus {
 	outline: none;
 }
 
@@ -771,26 +778,21 @@ button:focus {
 		font-weight: bold;
 	}
 	.i-price {
-		font-family: 'ralewaymedium';
+		font-family: 'ralewaylight_Web', 'Helvetica', sans-serif;
 	}
 	.item-product h3 {
 		padding: 10px 0 10px 0;
 	}
 	.item-list li {
 		width: 50%;
-		/*padding: 20px 90px 20px 90px;*/
 	}
 	.flickity-page-dots li {
 		padding: 0px;
 	}
 	.item-list button {
-		width: 80px;
+		width: 100px;
 		height: 30px;
-		font-size: 10px;
-		background-color: black;
-		position: relative;
-		right: 1px;
-		margin-top: 20px;
+		font-size: 12px;
 	}
 	/*footer*/
 	.footer {
@@ -819,7 +821,7 @@ button:focus {
 		visibility: visible;
 		width: 50px;
 		position: relative;
-		    bottom: 24px;
+		bottom: 24px;
 		text-align: left;
 		font-weight: bold;
 		font-size: 16px;
@@ -932,9 +934,6 @@ button:focus {
 		top: 40%;
 	}
 	/*content: itmes*/
-	.item-list {
-		/*padding: 0 0px 0 0px;*/
-	}
 	.img-size {
 		width: 17rem;
 	}
@@ -961,6 +960,5 @@ button:focus {
 		line-height: 2.5rem;
 		color: white;
 		font-family: 'ralewaylight_Web', 'Helvetica', sans-serif;
-		/*text-shadow:  #888888;*/
 	}
 }
