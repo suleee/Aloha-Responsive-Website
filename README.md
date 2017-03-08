@@ -1,4 +1,4 @@
-# Aloha_project_part2
+# Aloha Apparel Co
 
 This is a responsive website for the client: the Aloha Apparel Co. The website build with HTML, CSS components, and interactive JS.
 
