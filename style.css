@@ -146,16 +146,17 @@ p {
 	border-spacing: 100px;
 	text-align: center;
 	padding-top: 5px;
-	margin-bottom: 5px;}
+	margin-bottom: 5px;
+}
+
 .nav-list a {
 	color: #e2574c;
 	font-weight: bold;
 	text-transform: uppercase;
 	text-decoration: none;
 	font-family: 'ralewaylight_Web', 'Helvetica', sans-serif;
-
-
 }
+
 .nav-list a:hover,
 .nav-list a:active {
 	color: #b64036;
@@ -204,7 +205,7 @@ p {
 	margin-top: 105px;
 }
 
-.mainbanner-t {
+.mainbanner-text {
 	padding-top: 12rem;
 	text-align: center;
 	margin: auto;
@@ -281,7 +282,7 @@ p {
 }
 
 .box01 {
-	background: linear-gradient( to bottom, rgba(0, 0, 0, 0.3) 0%, rgba(0, 0, 0, 0.5) 100%), url(images/mens-category.jpg)no-repeat bottom;
+	background: linear-gradient( to bottom, rgba(0, 0, 0, 0.3) 0%, rgba(0, 0, 0, 0.5) 100%), url('images/mens-category.jpg')no-repeat bottom;
 	background-size: contain, cover;
 	padding: 25% 0;
 	border-right: 0;
@@ -290,7 +291,7 @@ p {
 }
 
 .box02 {
-	background: linear-gradient( to bottom, rgba(0, 0, 0, 0.25) 0%, rgba(0, 0, 0, 0.25) 100%), url(images/trends-category.jpg)no-repeat left;
+	background: linear-gradient( to bottom, rgba(0, 0, 0, 0.25) 0%, rgba(0, 0, 0, 0.25) 100%), url('images/trends-category.jpg')no-repeat left;
 	background-size: contain, cover;
 	padding: 25% 0;
 	border-left: 0;
@@ -298,7 +299,7 @@ p {
 }
 
 .box03 {
-	background: linear-gradient( to bottom, rgba(0, 0, 0, 0.25) 0%, rgba(0, 0, 0, 0.25) 100%), url(images/glasses-category.jpg)no-repeat left;
+	background: linear-gradient( to bottom, rgba(0, 0, 0, 0.25) 0%, rgba(0, 0, 0, 0.25) 100%), url('images/glasses-category.jpg')no-repeat left;
 	background-size: contain, cover;
 	padding: 25% 0;
 	border-right: 0;
@@ -306,7 +307,7 @@ p {
 }
 
 .box04 {
-	background: linear-gradient( to bottom, rgba(0, 0, 0, 0.25) 0%, rgba(0, 0, 0, 0.25) 100%), url(images/sale-category.jpg)no-repeat bottom;
+	background: linear-gradient( to bottom, rgba(0, 0, 0, 0.25) 0%, rgba(0, 0, 0, 0.25) 100%), url('images/sale-category.jpg')no-repeat bottom;
 	background-size: contain, cover;
 	background-color: red;
 	padding: 25% 0;
@@ -315,7 +316,7 @@ p {
 }
 
 .box05 {
-	background: linear-gradient( to bottom, rgba(0, 0, 0, 0.25) 0%, rgba(0, 0, 0, 0.25) 100%), url(images/bags-category.jpg)no-repeat left;
+	background: linear-gradient( to bottom, rgba(0, 0, 0, 0.25) 0%, rgba(0, 0, 0, 0.25) 100%), url('images/bags-category.jpg')no-repeat left;
 	background-size: contain, cover;
 	background-color: black;
 	padding: 25% 0;
@@ -324,7 +325,7 @@ p {
 }
 
 .box06 {
-	background: linear-gradient( to bottom, rgba(0, 0, 0, 0.25) 0%, rgba(0, 0, 0, 0.25) 100%), url(images/womens-category.jpg)no-repeat left;
+	background: linear-gradient( to bottom, rgba(0, 0, 0, 0.25) 0%, rgba(0, 0, 0, 0.25) 100%), url('images/womens-category.jpg')no-repeat left;
 	background-size: contain, cover;
 	background-color: black;
 	border-right: 0;
@@ -625,22 +626,16 @@ input:focus {
 		margin-top: 2px;
 	}
 	.logo {
-		width: 120px;
+		/*width: 120px;*/
 		flex: none;
 		order: 1;
 		flex-basis: 20%;
 	}
 	.navi {
-		margin: auto;
+		/*margin: auto;*/
 		flex: none;
 		order: 2;
 		flex-basis: 60%;
-	}
-	.cart {
-		width: 48px;
-		flex: none;
-		order: 3;
-		flex-basis: 20%;
 	}
 	.nav-list {
 		border-top: none;
@@ -649,8 +644,14 @@ input:focus {
 		padding-top: 6px;
 		margin: 0px 7px 0px 7px;
 	}
+	.cart {
+		width: 48px;
+		flex: none;
+		order: 3;
+		flex-basis: 20%;
+	}
 	/*head: main banner*/
-	.mainbanner-t {
+	.mainbanner-text {
 		padding-top: 11rem;
 	}
 	.text1 {
@@ -665,12 +666,12 @@ input:focus {
 		margin-top: 80px;
 		background: linear-gradient(to bottom, rgba(0, 0, 0, 0.25) 0%, rgba(0, 0, 0, 0.25) 100%), url('images/banner-girl.png') no-repeat center 3.5rem, url('images/flower-bkgd.jpg') repeat-x center top;
 		background-size: contain, 155px 379px, cover;
-		height: 400px;
-		position: relative;
+		/*height: 400px;*/
+		/*position: relative;*/
 	}
 	.head-text {
 		max-width: 720px;
-		margin: auto;
+		/*margin: auto;*/
 	}
 	.head-t-h {
 		margin-top: 3.57rem;
@@ -685,109 +686,38 @@ input:focus {
 	}
 	/*content: image boxes*/
 	.box01 {
-		background: linear-gradient( to bottom, rgba(0, 0, 0, 0.25) 0%, rgba(0, 0, 0, 0.25) 100%), url(images/mens-category.jpg)no-repeat bottom;
-		background-size: contain, cover;
 		padding: 11% 0;
-		border-left: 0;
 		border-right: 8px solid white;
 		flex: 1 0 50%;
 	}
 	.box02 {
-		background: linear-gradient( to bottom, rgba(0, 0, 0, 0.25) 0%, rgba(0, 0, 0, 0.25) 100%), url(images/trends-category.jpg)no-repeat left;
 		background-size: contain, cover;
 		padding: 11% 0;
 		flex: 1 0 25%;
 	}
 	.box03 {
-		background: linear-gradient( to bottom, rgba(0, 0, 0, 0.25) 0%, rgba(0, 0, 0, 0.25) 100%), url(images/glasses-category.jpg)no-repeat left;
-		background-size: contain, cover;
 		padding: 11% 0;
-		border-right: 0;
 		flex: 1 0 25%;
 	}
 	.box04 {
-		background: linear-gradient( to bottom, rgba(0, 0, 0, 0.25) 0%, rgba(0, 0, 0, 0.25) 100%), url(images/sale-category.jpg)no-repeat bottom;
-		background-size: contain, cover;
-		background-color: red;
 		padding: 11% 0;
-		border-left: 0;
 		flex: 1 0 24%;
 	}
 	.box05 {
-		background: linear-gradient( to bottom, rgba(0, 0, 0, 0.25) 0%, rgba(0, 0, 0, 0.25) 100%), url(images/bags-category.jpg)no-repeat left;
-		background-size: contain, cover;
-		background-color: black;
 		padding: 11% 0;
 		border-right: 8px solid white;
 		flex: 0 0 24%;
 	}
 	.box06 {
-		background: linear-gradient( to bottom, rgba(0, 0, 0, 0.25) 0%, rgba(0, 0, 0, 0.25) 100%), url(images/womens-category.jpg)no-repeat left;
-		background-size: contain, cover;
-		background-color: black;
 		padding: 11% 0;
-		border-right: 0;
 		flex: 0 0 50%;
 	}
-	.box-s span {
-		color: white;
-		text-transform: uppercase;
-		font-size: 23px;
-		font-weight: bold;
-		text-shadow: .14rem .14rem .21rem #888888;
-		position: absolute;
-		left: 43%;
-		top: 50%;
-	}
-	.box span {
-		color: white;
-		text-transform: uppercase;
-		font-size: 23px;
-		font-weight: bold;
-		text-shadow: .14rem .14rem .21rem #888888;
-		position: absolute;
-		left: 30%;
-		top: 40%;
-	}
 	/*content: items*/
-	.item-list {
-		margin-top: 50px;
-	}
-	.item-dress {
-		margin-bottom: 3.57rem;
-	}
-	.item-shirt {
-		margin-bottom: 3.57rem;
-	}
-	.item-sdress {
-		margin-bottom: 3.57rem;
-	}
-	.item-bpack {
-		margin-bottom: 3.57rem;
-	}
 	.img-size {
 		width: 20rem;
 	}
-	.items p {
-		font-size: 14px;
-		color: #969696;
-		font-weight: bold;
-	}
-	.items span {
-		font-style: normal;
-		font-weight: bold;
-	}
-	.i-price {
-		font-family: 'ralewaylight_Web', 'Helvetica', sans-serif;
-	}
-	.item-product h3 {
-		padding: 10px 0 10px 0;
-	}
 	.item-list li {
 		width: 50%;
-	}
-	.flickity-page-dots li {
-		padding: 0px;
 	}
 	.item-list button {
 		width: 100px;
@@ -832,12 +762,12 @@ input:focus {
 	.sns-ul li {
 		margin: 6px 0 6px 0;
 	}
-	.sns-ul a {
+	/*.sns-ul a {
 		text-decoration: none;
-	}
-	.sns-ul i {
+	}*/
+	/*.sns-ul i {
 		max-width: 9px;
-	}
+	}*/
 	.sns-ul span {
 		visibility: visible;
 		font-family: 'ralewaylight_Web', 'Helvetica', sans-serif;
@@ -846,12 +776,7 @@ input:focus {
 		font-weight: bold;
 	}
 	.fa {
-		color: white;
 		margin-right: 1.43rem;
-	}
-	.fa:hover,
-	.fa:active {
-		color: #b64036;
 	}
 }
 
@@ -876,7 +801,6 @@ input:focus {
 		flex-basis: 20%;
 	}
 	.navi {
-		margin: auto;
 		flex: none;
 		order: 2;
 		flex-basis: 60%;
@@ -893,7 +817,7 @@ input:focus {
 		font-size: 16px;
 	}
 	/*Head section: head banner*/
-	.mainbanner-t {
+	.mainbanner-text {
 		padding-top: 15.5rem;
 	}
 	.text1 {
