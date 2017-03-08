@@ -31,14 +31,19 @@ $(function () {
 
 // cart button
 $(function () {
-  $('.counter').hide();
-  $('.button').on('click', function () {
+  var $cartTotal = 0;
 
-    $('.counter').show().append();
+  $('.counter').hide();
+  $('.button').on('click', function (event) {
+event.preventDefault();
+$cartTotal++;
+    $('.counter').text($cartTotal).show();
     console.log('.counter');
 
   });
 });
+
+
 
 
 // email button: '#submit=button ID'

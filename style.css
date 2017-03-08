@@ -76,9 +76,8 @@
 
 html {
 	font-size: 14px;
-	/* font/rem defualt px */
 	color: #2d2d2d;
-	/*default color*/
+
 }
 
 body {
@@ -114,7 +113,6 @@ p {
 
 
 /*Head section*/
-
 .header {
 	position: fixed;
 	top: 0;
@@ -165,7 +163,7 @@ p {
 }
 
 .nav-list li {
-	color: red;
+	color: #b64036;
 	display: inline-block;
 	padding-top: 10px;
 	margin: 0px 13px 0px 13px;
@@ -181,18 +179,20 @@ p {
 }
 
 .counter {
-	width: 40px;
-	height: 40px;
+	width: 20px;
+	height: 20px;
 	border-radius: 20px;
-	background-color: red;
+	background-color: #e2574c;
 	position: absolute;
-	left: 170px;
+	padding-top: 1px;
+	right: 2px;
 	z-index: 1;
+	color: white;
+	text-align: center;
 }
 
 
 /*head banner*/
-
 .mainbanner {
 	text-align: center;
 	clear: both;
@@ -200,7 +200,7 @@ p {
 	background-size: contain, 11rem 26rem, cover;
 	height: 400px;
 	position: relative;
-	margin-top: 119px;
+	margin-top: 105px;
 }
 
 .mainbanner-t {
@@ -231,7 +231,6 @@ p {
 
 
 /*content: top text*/
-
 .head-text {
 	text-align: center;
 	max-width: 600px;
@@ -362,7 +361,14 @@ ul {
 }
 
 .items {
-	margin: 55px 0 0 0;
+	max-width: 1240px;
+	margin: 0 auto;
+	/*margin: 55px 0 0 0;*/
+	/*text-align: center;*/
+}
+
+.items h2 {
+	padding-top: 60px;
 	text-align: center;
 }
 
@@ -410,7 +416,9 @@ ul {
 }
 
 .item-list li {
-	padding: 30px 120px 20px 130px;
+	padding: 3rem 2rem;
+	text-align: center;
+	width: 100%;
 }
 
 .flickity-page-dots li {
@@ -424,6 +432,7 @@ ul {
 	background-color: black;
 	position: relative;
 	margin-top: 20px;
+	left: 0px;
 }
 
 
@@ -470,7 +479,7 @@ ul {
 
 .footer {
 	margin: 6px 0px 0px 0px;
-	/*	height: 18rem;*/
+	padding-bottom: 30px;
 	background-color: #242424;
 	text-align: center;
 	padding-top: 4rem;
@@ -509,16 +518,28 @@ a:hover {
 
 /*sns icons*/
 
-.sns {
-	padding: 35px 0 0 20px;
+.sns-ul {
+	display: flex;
+	width: 100%;
+	justify-content: center;
+	font-weight: bold;
+	font-size: 14px;
+	margin-top: 20px;
 }
 
-.sns li {
-	display: inline-block;
-	margin: auto;
+.sns-ul li {
+	margin: 6px 2px 6px 2px;
 }
 
-.sns-ul02 {
+.sns-ul a {
+	text-decoration: none;
+}
+
+.sns-ul i {
+	max-width: 9px;
+}
+
+.sns-ul span {
 	visibility: hidden;
 }
 
@@ -722,10 +743,6 @@ button:focus {
 		top: 40%;
 	}
 	/*content: items*/
-	.items {
-		margin: 55px 0 0 0;
-		text-align: center;
-	}
 	.item-list {
 		margin-top: 50px;
 	}
@@ -760,7 +777,8 @@ button:focus {
 		padding: 10px 0 10px 0;
 	}
 	.item-list li {
-		padding: 20px 90px 20px 90px;
+		width: 50%;
+		/*padding: 20px 90px 20px 90px;*/
 	}
 	.flickity-page-dots li {
 		padding: 0px;
@@ -795,34 +813,35 @@ button:focus {
 		margin: 20px 0 20px 0;
 	}
 	/*sns icons*/
-	.sns {}
-	.sns-ul01 {
-		visibility: hidden;
-		align-content: center;
-	}
-	.sns-ul02 {
+	.sns-ul {
+		display: flex;
+		flex-wrap: wrap;
 		visibility: visible;
-		width: 120px;
+		width: 50px;
 		position: relative;
-		bottom: 60px;
+		    bottom: 24px;
 		text-align: left;
 		font-weight: bold;
 		font-size: 16px;
 		margin: 5px 0 0 60px;
 		height: 20px;
+		padding: 10px 100px 0 0;
 	}
-	.sns-ul02 li {
+	.sns-ul li {
 		margin: 6px 0 6px 0;
 	}
-	.sns-ul02 a {
+	.sns-ul a {
 		text-decoration: none;
 	}
-	.sns-ul02 i {
+	.sns-ul i {
 		max-width: 9px;
 	}
-	.sns-ul02 span {
+	.sns-ul span {
+		visibility: visible;
 		font-family: 'ralewaylight_Web', 'Helvetica', sans-serif;
 		text-align: left;
+		padding-left: 20px;
+		font-weight: bold;
 	}
 	.fa {
 		color: white;
@@ -914,7 +933,7 @@ button:focus {
 	}
 	/*content: itmes*/
 	.item-list {
-		padding: 0 0px 0 0px;
+		/*padding: 0 0px 0 0px;*/
 	}
 	.img-size {
 		width: 17rem;
@@ -924,7 +943,8 @@ button:focus {
 		font-weight: bold;
 	}
 	.item-list li {
-		padding: 20px 50px 20px 50px;
+		width: 25%;
+		/*padding: 20px 50px 20px 50px;*/
 	}
 	.flickity-page-dots li {
 		padding: 0px;
