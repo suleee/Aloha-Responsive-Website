@@ -2,32 +2,32 @@
 
 @font-face {
 	font-family: 'ralewaylight_web';
-	src: url('fonts/webfontkit-raleway/raleway-light-webfont.eot');
-	src: url('fonts/webfontkit-raleway/raleway-light-webfont.eot?#iefix') format('embedded-opentype'), url('fonts/webfontkit-raleway/raleway-light-webfont.woff2') format('woff2'), url('fonts/webfontkit-raleway/raleway-light-webfont.woff') format('woff'), url('fonts/webfontkit-raleway/raleway-light-webfont.ttf') format('truetype'), url('fonts/webfontkit-raleway/raleway-light-webfont.svg#ralewaylight') format('svg');
+	src: url('../fonts/webfontkit-raleway/raleway-light-webfont.eot');
+	src: url('../fonts/webfontkit-raleway/raleway-light-webfont.eot?#iefix') format('embedded-opentype'), url('../fonts/webfontkit-raleway/raleway-light-webfont.woff2') format('woff2'), url('../fonts/webfontkit-raleway/raleway-light-webfont.woff') format('woff'), url('../fonts/webfontkit-raleway/raleway-light-webfont.ttf') format('truetype'), url('../fonts/webfontkit-raleway/raleway-light-webfont.svg#ralewaylight') format('svg');
 	font-weight: normal;
 	font-style: normal;
 }
 
 @font-face {
 	font-family: 'ralewaylight_Web';
-	src: url('fonts/webfontkit-raleway/raleway-lightitalic-webfont.eot');
-	src: url('fonts/webfontkit-raleway/raleway-lightitalic-webfont.eot?#iefix') format('embedded-opentype'), url('fonts/webfontkit-raleway/raleway-lightitalic-webfont.woff2') format('woff2'), url('fonts/webfontkit-raleway/raleway-lightitalic-webfont.woff') format('woff'), url('fonts/webfontkit-raleway/raleway-lightitalic-webfont.ttf') format('truetype'), url('fonts/webfontkit-raleway/raleway-lightitalic-webfont.svg#ralewaylight_italic') format('svg');
+	src: url('../fonts/webfontkit-raleway/raleway-lightitalic-webfont.eot');
+	src: url('../fonts/webfontkit-raleway/raleway-lightitalic-webfont.eot?#iefix') format('embedded-opentype'), url('../fonts/webfontkit-raleway/raleway-lightitalic-webfont.woff2') format('woff2'), url('../fonts/webfontkit-raleway/raleway-lightitalic-webfont.woff') format('woff'), url('../fonts/webfontkit-raleway/raleway-lightitalic-webfont.ttf') format('truetype'), url('../fonts/webfontkit-raleway/raleway-lightitalic-webfont.svg#ralewaylight_italic') format('svg');
 	font-weight: normal;
 	font-style: italic;
 }
 
 @font-face {
 	font-family: 'ralewaylight_web';
-	src: url('fonts/webfontkit-raleway/raleway-medium-webfont.eot');
-	src: url('fonts/webfontkit-raleway/raleway-medium-webfont.eot?#iefix') format('embedded-opentype'), url('fonts/webfontkit-raleway/raleway-medium-webfont.woff2') format('woff2'), url('fonts/webfontkit-raleway/raleway-medium-webfont.woff') format('woff'), url('fonts/webfontkit-raleway/raleway-medium-webfont.ttf') format('truetype'), url('fonts/webfontkit-raleway/raleway-medium-webfont.svg#ralewaymedium') format('svg');
+	src: url('../fonts/webfontkit-raleway/raleway-medium-webfont.eot');
+	src: url('../fonts/webfontkit-raleway/raleway-medium-webfont.eot?#iefix') format('embedded-opentype'), url('../fonts/webfontkit-raleway/raleway-medium-webfont.woff2') format('woff2'), url('../fonts/webfontkit-raleway/raleway-medium-webfont.woff') format('woff'), url('../fonts/webfontkit-raleway/raleway-medium-webfont.ttf') format('truetype'), url('../fonts/webfontkit-raleway/raleway-medium-webfont.svg#ralewaymedium') format('svg');
 	font-weight: bold;
 	font-style: normal;
 }
 
 @font-face {
 	font-family: 'ralewaylight_web';
-	src: url('fonts/webfontkit-raleway/raleway-mediumitalic-webfont.eot');
-	src: url('fonts/webfontkit-raleway/raleway-mediumitalic-webfont.eot?#iefix') format('embedded-opentype'), url('fonts/webfontkit-raleway/raleway-mediumitalic-webfont.woff2') format('woff2'), url('fonts/webfontkit-raleway/raleway-mediumitalic-webfont.woff') format('woff'), url('fonts/webfontkit-raleway/raleway-mediumitalic-webfont.ttf') format('truetype'), url('fonts/webfontkit-raleway/raleway-mediumitalic-webfont.svg#ralewaymedium_italic') format('svg');
+	src: url('../fonts/webfontkit-raleway/raleway-mediumitalic-webfont.eot');
+	src: url('../fonts/webfontkit-raleway/raleway-mediumitalic-webfont.eot?#iefix') format('embedded-opentype'), url('../fonts/webfontkit-raleway/raleway-mediumitalic-webfont.woff2') format('woff2'), url('../fonts/webfontkit-raleway/raleway-mediumitalic-webfont.woff') format('woff'), url('../fonts/webfontkit-raleway/raleway-mediumitalic-webfont.ttf') format('truetype'), url('../fonts/webfontkit-raleway/raleway-mediumitalic-webfont.svg#ralewaymedium_italic') format('svg');
 	font-weight: normal;
 	font-style: italic;
 }
@@ -37,32 +37,32 @@
 
 @font-face {
 	font-family: 'playfair_display_web';
-	src: url('fonts/webfontkit-playfair/playfairdisplay-bold-webfont.eot');
-	src: url('fonts/webfontkit-playfair/playfairdisplay-bold-webfont.eot?#iefix') format('embedded-opentype'), url('fonts/webfontkit-playfair/playfairdisplay-bold-webfont.woff2') format('woff2'), url('fonts/webfontkit-playfair/playfairdisplay-bold-webfont.woff') format('woff'), url('fonts/webfontkit-playfair/playfairdisplay-bold-webfont.ttf') format('truetype'), url('fonts/webfontkit-playfair/playfairdisplay-bold-webfont.svg#playfair_displaybold') format('svg');
+	src: url('../fonts/webfontkit-playfair/playfairdisplay-bold-webfont.eot');
+	src: url('../fonts/webfontkit-playfair/playfairdisplay-bold-webfont.eot?#iefix') format('embedded-opentype'), url('../fonts/webfontkit-playfair/playfairdisplay-bold-webfont.woff2') format('woff2'), url('../fonts/webfontkit-playfair/playfairdisplay-bold-webfont.woff') format('woff'), url('../fonts/webfontkit-playfair/playfairdisplay-bold-webfont.ttf') format('truetype'), url('../fonts/webfontkit-playfair/playfairdisplay-bold-webfont.svg#playfair_displaybold') format('svg');
 	font-weight: bold;
 	font-style: normal;
 }
 
 @font-face {
 	font-family: 'playfair_display_web';
-	src: url('fonts/webfontkit-playfair/playfairdisplay-bolditalic-webfont.eot');
-	src: url('fonts/webfontkit-playfair/playfairdisplay-bolditalic-webfont.eot?#iefix') format('embedded-opentype'), url('fonts/webfontkit-playfair/playfairdisplay-bolditalic-webfont.woff2') format('woff2'), url('fonts/webfontkit-playfair/playfairdisplay-bolditalic-webfont.woff') format('woff'), url('fonts/webfontkit-playfair/playfairdisplay-bolditalic-webfont.ttf') format('truetype'), url('fonts/webfontkit-playfair/playfairdisplay-bolditalic-webfont.svg#playfair_displaybold_italic') format('svg');
+	src: url('../fonts/webfontkit-playfair/playfairdisplay-bolditalic-webfont.eot');
+	src: url('../fonts/webfontkit-playfair/playfairdisplay-bolditalic-webfont.eot?#iefix') format('embedded-opentype'), url('../fonts/webfontkit-playfair/playfairdisplay-bolditalic-webfont.woff2') format('woff2'), url('../fonts/webfontkit-playfair/playfairdisplay-bolditalic-webfont.woff') format('woff'), url('../fonts/webfontkit-playfair/playfairdisplay-bolditalic-webfont.ttf') format('truetype'), url('../fonts/webfontkit-playfair/playfairdisplay-bolditalic-webfont.svg#playfair_displaybold_italic') format('svg');
 	font-weight: bold;
 	font-style: italic;
 }
 
 @font-face {
 	font-family: 'playfair_display_web';
-	src: url('fonts/webfontkit-playfair/playfairdisplay-italic-webfont.eot');
-	src: url('fonts/webfontkit-playfair/playfairdisplay-italic-webfont.eot?#iefix') format('embedded-opentype'), url('fonts/webfontkit-playfair/playfairdisplay-italic-webfont.woff2') format('woff2'), url('fonts/webfontkit-playfair/playfairdisplay-italic-webfont.woff') format('woff'), url('fonts/webfontkit-playfair/playfairdisplay-italic-webfont.ttf') format('truetype'), url('fonts/webfontkit-playfair/playfairdisplay-italic-webfont.svg#playfair_displayitalic') format('svg');
+	src: url('../fonts/webfontkit-playfair/playfairdisplay-italic-webfont.eot');
+	src: url('../fonts/webfontkit-playfair/playfairdisplay-italic-webfont.eot?#iefix') format('embedded-opentype'), url('../fonts/webfontkit-playfair/playfairdisplay-italic-webfont.woff2') format('woff2'), url('../fonts/webfontkit-playfair/playfairdisplay-italic-webfont.woff') format('woff'), url('../fonts/webfontkit-playfair/playfairdisplay-italic-webfont.ttf') format('truetype'), url('../fonts/webfontkit-playfair/playfairdisplay-italic-webfont.svg#playfair_displayitalic') format('svg');
 	font-weight: normal;
 	font-style: italic;
 }
 
 @font-face {
 	font-family: 'playfair_display_web';
-	src: url('fonts/webfontkit-playfair/playfairdisplay-regular-webfont.eot');
-	src: url('fonts/webfontkit-playfair/playfairdisplay-regular-webfont.eot?#iefix') format('embedded-opentype'), url('fonts/webfontkit-playfair/playfairdisplay-regular-webfont.woff2') format('woff2'), url('fonts/webfontkit-playfair/playfairdisplay-regular-webfont.woff') format('woff'), url('fonts/webfontkit-playfair/playfairdisplay-regular-webfont.ttf') format('truetype'), url('fonts/webfontkit-playfair/playfairdisplay-regular-webfont.svg#playfair_displayregular') format('svg');
+	src: url('../fonts/webfontkit-playfair/playfairdisplay-regular-webfont.eot');
+	src: url('../fonts/webfontkit-playfair/playfairdisplay-regular-webfont.eot?#iefix') format('embedded-opentype'), url('../fonts/webfontkit-playfair/playfairdisplay-regular-webfont.woff2') format('woff2'), url('../fonts/webfontkit-playfair/playfairdisplay-regular-webfont.woff') format('woff'), url('../fonts/webfontkit-playfair/playfairdisplay-regular-webfont.ttf') format('truetype'), url('../fonts/webfontkit-playfair/playfairdisplay-regular-webfont.svg#playfair_displayregular') format('svg');
 	font-weight: normal;
 	font-style: normal;
 }
@@ -128,29 +128,29 @@ p {
 	display: -ms-flexbox;
 	display: flex;
 	-ms-flex-wrap: wrap;
-	    flex-wrap: wrap;
+	flex-wrap: wrap;
 	-webkit-box-pack: justify;
-	    -ms-flex-pack: justify;
-	        justify-content: space-between;
+	-ms-flex-pack: justify;
+	justify-content: space-between;
 }
 
 .logo {
 	width: 8.57rem;
 	-ms-flex-item-align: start;
-	    align-self: flex-start;
+	align-self: flex-start;
 	-webkit-box-flex: 0;
-	    -ms-flex: 0 1 50%;
-	        flex: 0 1 50%
+	-ms-flex: 0 1 50%;
+	flex: 0 1 50%
 }
 
 .navi {
 	margin: auto;
 	-ms-flex-item-align: center;
-	    -ms-grid-row-align: center;
-	    align-self: center;
+	-ms-grid-row-align: center;
+	align-self: center;
 	-webkit-box-flex: 1;
-	    -ms-flex: 1 0 auto;
-	        flex: 1 0 auto;
+	-ms-flex: 1 0 auto;
+	flex: 1 0 auto;
 }
 
 .nav-list {
@@ -185,10 +185,10 @@ p {
 .cart {
 	width: 3.57rem;
 	-ms-flex-item-align: end;
-	    align-self: flex-end;
+	align-self: flex-end;
 	-webkit-box-flex: 0;
-	    -ms-flex: 0 1 50%;
-	        flex: 0 1 50%;
+	-ms-flex: 0 1 50%;
+	flex: 0 1 50%;
 	text-align: right;
 	padding-bottom: 3px;
 	position: relative;
@@ -213,8 +213,8 @@ p {
 .mainbanner {
 	text-align: center;
 	clear: both;
-	background: -webkit-linear-gradient(top, rgba(0, 0, 0, 0.25) 0%, rgba(0, 0, 0, 0.25) 100%), url('images/banner-girl.png') no-repeat center 4.5rem, url('images/flower-bkgd.jpg') repeat-x center top;
-	background: linear-gradient(to bottom, rgba(0, 0, 0, 0.25) 0%, rgba(0, 0, 0, 0.25) 100%), url('images/banner-girl.png') no-repeat center 4.5rem, url('images/flower-bkgd.jpg') repeat-x center top;
+	background: -webkit-linear-gradient(top, rgba(0, 0, 0, 0.25) 0%, rgba(0, 0, 0, 0.25) 100%), url("../..images/banner-girl.png") no-repeat center 4.5rem, url('images/flower-bkgd.jpg') repeat-x center top;
+	background: linear-gradient(to bottom, rgba(0, 0, 0, 0.25) 0%, rgba(0, 0, 0, 0.25) 100%), url("../..images/banner-girl.png") no-repeat center 4.5rem, url('images/flower-bkgd.jpg') repeat-x center top;
 	background-size: contain, 11rem 26rem, cover;
 	height: 28.57rem;
 	position: relative;
@@ -283,13 +283,13 @@ p {
 
 .box-img {
 	-webkit-box-flex: 0;
-	    -ms-flex: 0 1 auto;
-	        flex: 0 1 auto;
+	-ms-flex: 0 1 auto;
+	flex: 0 1 auto;
 	display: -webkit-box;
 	display: -ms-flexbox;
 	display: flex;
 	-ms-flex-wrap: wrap;
-	    flex-wrap: wrap;
+	flex-wrap: wrap;
 }
 
 .box {
@@ -303,74 +303,74 @@ p {
 }
 
 .box01 {
-	background: -webkit-linear-gradient( top, rgba(0, 0, 0, 0.3) 0%, rgba(0, 0, 0, 0.5) 100%), url('images/mens-category.jpg')no-repeat bottom;
-	background: linear-gradient( to bottom, rgba(0, 0, 0, 0.3) 0%, rgba(0, 0, 0, 0.5) 100%), url('images/mens-category.jpg')no-repeat bottom;
+	background: -webkit-linear-gradient( top, rgba(0, 0, 0, 0.3) 0%, rgba(0, 0, 0, 0.5) 100%), url('../images/mens-category.jpg')no-repeat bottom;
+	background: linear-gradient( to bottom, rgba(0, 0, 0, 0.3) 0%, rgba(0, 0, 0, 0.5) 100%), url('../images/mens-category.jpg')no-repeat bottom;
 	background-size: contain, cover;
 	padding: 25% 0;
 	border-right: 0;
 	border-left: 0;
 	-webkit-box-flex: 2;
-	    -ms-flex: 2 0 100%;
-	        flex: 2 0 100%;
+	-ms-flex: 2 0 100%;
+	flex: 2 0 100%;
 }
 
 .box02 {
-	background: -webkit-linear-gradient( top, rgba(0, 0, 0, 0.25) 0%, rgba(0, 0, 0, 0.25) 100%), url('images/trends-category.jpg')no-repeat left;
-	background: linear-gradient( to bottom, rgba(0, 0, 0, 0.25) 0%, rgba(0, 0, 0, 0.25) 100%), url('images/trends-category.jpg')no-repeat left;
+	background: -webkit-linear-gradient( top, rgba(0, 0, 0, 0.25) 0%, rgba(0, 0, 0, 0.25) 100%), url('../images/trends-category.jpg')no-repeat left;
+	background: linear-gradient( to bottom, rgba(0, 0, 0, 0.25) 0%, rgba(0, 0, 0, 0.25) 100%), url('../images/trends-category.jpg')no-repeat left;
 	background-size: contain, cover;
 	padding: 25% 0;
 	border-left: 0;
 	-webkit-box-flex: 1;
-	    -ms-flex: 1 0 48%;
-	        flex: 1 0 48%;
+	-ms-flex: 1 0 48%;
+	flex: 1 0 48%;
 }
 
 .box03 {
-	background: -webkit-linear-gradient( top, rgba(0, 0, 0, 0.25) 0%, rgba(0, 0, 0, 0.25) 100%), url('images/glasses-category.jpg')no-repeat left;
-	background: linear-gradient( to bottom, rgba(0, 0, 0, 0.25) 0%, rgba(0, 0, 0, 0.25) 100%), url('images/glasses-category.jpg')no-repeat left;
+	background: -webkit-linear-gradient( top, rgba(0, 0, 0, 0.25) 0%, rgba(0, 0, 0, 0.25) 100%), url('../images/glasses-category.jpg')no-repeat left;
+	background: linear-gradient( to bottom, rgba(0, 0, 0, 0.25) 0%, rgba(0, 0, 0, 0.25) 100%), url('../images/glasses-category.jpg')no-repeat left;
 	background-size: contain, cover;
 	padding: 25% 0;
 	border-right: 0;
 	-webkit-box-flex: 1;
-	    -ms-flex: 1 0 48%;
-	        flex: 1 0 48%;
+	-ms-flex: 1 0 48%;
+	flex: 1 0 48%;
 }
 
 .box04 {
-	background: -webkit-linear-gradient( top, rgba(0, 0, 0, 0.25) 0%, rgba(0, 0, 0, 0.25) 100%), url('images/sale-category.jpg')no-repeat bottom;
-	background: linear-gradient( to bottom, rgba(0, 0, 0, 0.25) 0%, rgba(0, 0, 0, 0.25) 100%), url('images/sale-category.jpg')no-repeat bottom;
+	background: -webkit-linear-gradient( top, rgba(0, 0, 0, 0.25) 0%, rgba(0, 0, 0, 0.25) 100%), url('../images/sale-category.jpg')no-repeat bottom;
+	background: linear-gradient( to bottom, rgba(0, 0, 0, 0.25) 0%, rgba(0, 0, 0, 0.25) 100%), url('../images/sale-category.jpg')no-repeat bottom;
 	background-size: contain, cover;
 	background-color: red;
 	padding: 25% 0;
 	border-left: 0;
 	-webkit-box-flex: 2;
-	    -ms-flex: 2 0 48%;
-	        flex: 2 0 48%;
+	-ms-flex: 2 0 48%;
+	flex: 2 0 48%;
 }
 
 .box05 {
-	background: -webkit-linear-gradient( top, rgba(0, 0, 0, 0.25) 0%, rgba(0, 0, 0, 0.25) 100%), url('images/bags-category.jpg')no-repeat left;
-	background: linear-gradient( to bottom, rgba(0, 0, 0, 0.25) 0%, rgba(0, 0, 0, 0.25) 100%), url('images/bags-category.jpg')no-repeat left;
+	background: -webkit-linear-gradient( top, rgba(0, 0, 0, 0.25) 0%, rgba(0, 0, 0, 0.25) 100%), url('../images/bags-category.jpg')no-repeat left;
+	background: linear-gradient( to bottom, rgba(0, 0, 0, 0.25) 0%, rgba(0, 0, 0, 0.25) 100%), url('../images/bags-category.jpg')no-repeat left;
 	background-size: contain, cover;
 	background-color: black;
 	padding: 25% 0;
 	border-right: 0;
 	-webkit-box-flex: 0;
-	    -ms-flex: 0 0 50%;
-	        flex: 0 0 50%;
+	-ms-flex: 0 0 50%;
+	flex: 0 0 50%;
 }
 
 .box06 {
-	background: -webkit-linear-gradient( top, rgba(0, 0, 0, 0.25) 0%, rgba(0, 0, 0, 0.25) 100%), url('images/womens-category.jpg')no-repeat left;
-	background: linear-gradient( to bottom, rgba(0, 0, 0, 0.25) 0%, rgba(0, 0, 0, 0.25) 100%), url('images/womens-category.jpg')no-repeat left;
+	background: -webkit-linear-gradient( top, rgba(0, 0, 0, 0.25) 0%, rgba(0, 0, 0, 0.25) 100%), url('../images/womens-category.jpg')no-repeat left;
+	background: linear-gradient( to bottom, rgba(0, 0, 0, 0.25) 0%, rgba(0, 0, 0, 0.25) 100%), url('../images/womens-category.jpg')no-repeat left;
 	background-size: contain, cover;
 	background-color: black;
 	border-right: 0;
 	border-left: 0;
 	padding: 25% 0;
 	-webkit-box-flex: 0;
-	    -ms-flex: 0 0 100%;
-	        flex: 0 0 100%;
+	-ms-flex: 0 0 100%;
+	flex: 0 0 100%;
 }
 
 .box-s span {
@@ -491,8 +491,8 @@ ul {
 
 .sign-bg {
 	text-align: center;
-	background: -webkit-linear-gradient(rgba(0, 0, 0, .2) 100%, rgba(0, 0, 0, 0) 0%), url('images/wave-bkgd.jpg') no-repeat bottom;
-	background: linear-gradient(rgba(0, 0, 0, .2) 100%, rgba(0, 0, 0, 0) 0%), url('images/wave-bkgd.jpg') no-repeat bottom;
+	background: -webkit-linear-gradient(rgba(0, 0, 0, .2) 100%, rgba(0, 0, 0, 0) 0%), url('../images/wave-bkgd.jpg') no-repeat bottom;
+	background: linear-gradient(rgba(0, 0, 0, .2) 100%, rgba(0, 0, 0, 0) 0%), url('../images/wave-bkgd.jpg') no-repeat bottom;
 	height: 27rem;
 }
 
@@ -572,8 +572,8 @@ a:hover {
 	display: flex;
 	width: 100%;
 	-webkit-box-pack: center;
-	    -ms-flex-pack: center;
-	        justify-content: center;
+	-ms-flex-pack: center;
+	justify-content: center;
 	font-weight: bold;
 	font-size: 14px;
 	margin-top: 20px;
@@ -670,26 +670,24 @@ input:focus {
 		margin-top: 2px;
 	}
 	.logo {
-		/*width: 120px;*/
 		-webkit-box-flex: 0;
-		    -ms-flex: none;
-		        flex: none;
+		-ms-flex: none;
+		flex: none;
 		-webkit-box-ordinal-group: 2;
-		    -ms-flex-order: 1;
-		        order: 1;
+		-ms-flex-order: 1;
+		order: 1;
 		-ms-flex-preferred-size: 20%;
-		    flex-basis: 20%;
+		flex-basis: 20%;
 	}
 	.navi {
-		/*margin: auto;*/
 		-webkit-box-flex: 0;
-		    -ms-flex: none;
-		        flex: none;
+		-ms-flex: none;
+		flex: none;
 		-webkit-box-ordinal-group: 3;
-		    -ms-flex-order: 2;
-		        order: 2;
+		-ms-flex-order: 2;
+		order: 2;
 		-ms-flex-preferred-size: 60%;
-		    flex-basis: 60%;
+		flex-basis: 60%;
 	}
 	.nav-list {
 		border-top: none;
@@ -701,13 +699,13 @@ input:focus {
 	.cart {
 		width: 48px;
 		-webkit-box-flex: 0;
-		    -ms-flex: none;
-		        flex: none;
+		-ms-flex: none;
+		flex: none;
 		-webkit-box-ordinal-group: 4;
-		    -ms-flex-order: 3;
-		        order: 3;
+		-ms-flex-order: 3;
+		order: 3;
 		-ms-flex-preferred-size: 20%;
-		    flex-basis: 20%;
+		flex-basis: 20%;
 	}
 	/*head: main banner*/
 	.mainbanner-text {
@@ -723,15 +721,12 @@ input:focus {
 	}
 	.mainbanner {
 		margin-top: 80px;
-		background: -webkit-linear-gradient(top, rgba(0, 0, 0, 0.25) 0%, rgba(0, 0, 0, 0.25) 100%), url('images/banner-girl.png') no-repeat center 3.5rem, url('images/flower-bkgd.jpg') repeat-x center top;
-		background: linear-gradient(to bottom, rgba(0, 0, 0, 0.25) 0%, rgba(0, 0, 0, 0.25) 100%), url('images/banner-girl.png') no-repeat center 3.5rem, url('images/flower-bkgd.jpg') repeat-x center top;
+		background: -webkit-linear-gradient(top, rgba(0, 0, 0, 0.25) 0%, rgba(0, 0, 0, 0.25) 100%), url('../images/banner-girl.png') no-repeat center 3.5rem, url('../images/flower-bkgd.jpg') repeat-x center top;
+		background: linear-gradient(to bottom, rgba(0, 0, 0, 0.25) 0%, rgba(0, 0, 0, 0.25) 100%), url('../images/banner-girl.png') no-repeat center 3.5rem, url('../images/flower-bkgd.jpg') repeat-x center top;
 		background-size: contain, 11.1rem 27.1rem, cover;
-		/*height: 400px;*/
-		/*position: relative;*/
 	}
 	.head-text {
 		max-width: 51.4rem;
-		/*margin: auto;*/
 	}
 	.head-t-h {
 		margin-top: 3.57rem;
@@ -744,47 +739,45 @@ input:focus {
 		padding-bottom: 3.57rem;
 		width: 93%;
 	}
-	/*content: image boxes*/
 	.box01 {
 		padding: 11% 0;
 		border-right: 8px solid white;
 		-webkit-box-flex: 1;
-		    -ms-flex: 1 0 50%;
-		        flex: 1 0 50%;
+		-ms-flex: 1 0 50%;
+		flex: 1 0 50%;
 	}
 	.box02 {
 		background-size: contain, cover;
 		padding: 11% 0;
 		-webkit-box-flex: 1;
-		    -ms-flex: 1 0 25%;
-		        flex: 1 0 25%;
+		-ms-flex: 1 0 25%;
+		flex: 1 0 25%;
 	}
 	.box03 {
 		padding: 11% 0;
 		-webkit-box-flex: 1;
-		    -ms-flex: 1 0 25%;
-		        flex: 1 0 25%;
+		-ms-flex: 1 0 25%;
+		flex: 1 0 25%;
 	}
 	.box04 {
 		padding: 11% 0;
 		-webkit-box-flex: 1;
-		    -ms-flex: 1 0 24%;
-		        flex: 1 0 24%;
+		-ms-flex: 1 0 24%;
+		flex: 1 0 24%;
 	}
 	.box05 {
 		padding: 11% 0;
 		border-right: 8px solid white;
 		-webkit-box-flex: 0;
-		    -ms-flex: 0 0 24%;
-		        flex: 0 0 24%;
+		-ms-flex: 0 0 24%;
+		flex: 0 0 24%;
 	}
 	.box06 {
 		padding: 11% 0;
 		-webkit-box-flex: 0;
-		    -ms-flex: 0 0 50%;
-		        flex: 0 0 50%;
+		-ms-flex: 0 0 50%;
+		flex: 0 0 50%;
 	}
-	/*content: items*/
 	.img-size {
 		width: 20rem;
 	}
@@ -796,7 +789,6 @@ input:focus {
 		height: 2.14rem;
 		font-size: 12px;
 	}
-	/*footer*/
 	.footer {
 		padding-top: 2.86rem;
 	}
@@ -805,8 +797,8 @@ input:focus {
 		display: -ms-flexbox;
 		display: flex;
 		-webkit-box-pack: justify;
-		    -ms-flex-pack: justify;
-		        justify-content: space-between;
+		-ms-flex-pack: justify;
+		justify-content: space-between;
 		margin: .36rem 3.57rem 0px 1.43rem;
 		height: 14rem;
 	}
@@ -820,13 +812,12 @@ input:focus {
 	.contact {
 		margin: 1.43rem 0 1.43rem 0;
 	}
-	/*sns icons*/
 	.sns-ul {
 		display: -webkit-box;
 		display: -ms-flexbox;
 		display: flex;
 		-ms-flex-wrap: wrap;
-		    flex-wrap: wrap;
+		flex-wrap: wrap;
 		visibility: visible;
 		width: 3.57rem;
 		position: relative;
@@ -841,7 +832,6 @@ input:focus {
 	.sns-ul li {
 		margin: .43rem 0 .43rem 0;
 	}
-
 	.sns-ul span {
 		visibility: visible;
 		font-family: 'ralewaylight_Web', 'Helvetica', sans-serif;
@@ -864,48 +854,46 @@ input:focus {
 	.wrapper {
 		width: 88.57rem;
 	}
-	/*Head section: navigation*/
 	.menu {
 		padding: 14px 52px 14px 50px;
 	}
 	.logo {
 		width: 11.79rem;
 		-webkit-box-flex: 0;
-		    -ms-flex: none;
-		        flex: none;
+		-ms-flex: none;
+		flex: none;
 		-webkit-box-ordinal-group: 2;
-		    -ms-flex-order: 1;
-		        order: 1;
+		-ms-flex-order: 1;
+		order: 1;
 		-ms-flex-preferred-size: 20%;
-		    flex-basis: 20%;
+		flex-basis: 20%;
 	}
 	.navi {
 		-webkit-box-flex: 0;
-		    -ms-flex: none;
-		        flex: none;
+		-ms-flex: none;
+		flex: none;
 		-webkit-box-ordinal-group: 3;
-		    -ms-flex-order: 2;
-		        order: 2;
+		-ms-flex-order: 2;
+		order: 2;
 		-ms-flex-preferred-size: 60%;
-		    flex-basis: 60%;
+		flex-basis: 60%;
 	}
 	.cart {
 		width: 4.5rem;
 		-webkit-box-flex: 0;
-		    -ms-flex: none;
-		        flex: none;
+		-ms-flex: none;
+		flex: none;
 		-webkit-box-ordinal-group: 4;
-		    -ms-flex-order: 3;
-		        order: 3;
+		-ms-flex-order: 3;
+		order: 3;
 		-ms-flex-preferred-size: 20%;
-		    flex-basis: 20%;
+		flex-basis: 20%;
 	}
 	.nav-list li {
 		padding-top: .43rem;
 		margin: 0px 1.07rem 0px 1.07rem;
 		font-size: 1.14rem;
 	}
-	/*Head section: head banner*/
 	.mainbanner-text {
 		padding-top: 15.5rem;
 	}
@@ -919,14 +907,13 @@ input:focus {
 		text-shadow: .14rem .14rem .21rem #888888;
 	}
 	.mainbanner {
-		background: -webkit-linear-gradient(top, rgba(0, 0, 0, 0.25) 0%, rgba(0, 0, 0, 0.25) 100%), url('images/banner-girl.png') no-repeat center 4rem, url('images/flower-bkgd.jpg') repeat-x center top;
-		background: linear-gradient(to bottom, rgba(0, 0, 0, 0.25) 0%, rgba(0, 0, 0, 0.25) 100%), url('images/banner-girl.png') no-repeat center 4rem, url('images/flower-bkgd.jpg') repeat-x center top;
+		background: -webkit-linear-gradient(top, rgba(0, 0, 0, 0.25) 0%, rgba(0, 0, 0, 0.25) 100%), url('../images/banner-girl.png') no-repeat center 4rem, url('../images/flower-bkgd.jpg') repeat-x center top;
+		background: linear-gradient(to bottom, rgba(0, 0, 0, 0.25) 0%, rgba(0, 0, 0, 0.25) 100%), url('../images/banner-girl.png') no-repeat center 4rem, url('../images/flower-bkgd.jpg') repeat-x center top;
 		background-size: cover, 19.2rem 42.9rem, contain;
 		height: 39.3rem;
 		margin-top: 7.2rem;
 		position: relative;
 	}
-	/*content: boxes*/
 	.box-s span {
 		color: white;
 		text-transform: uppercase;
@@ -947,7 +934,6 @@ input:focus {
 		left: 30%;
 		top: 40%;
 	}
-	/*content: itmes*/
 	.img-size {
 		width: 17rem;
 	}
@@ -961,7 +947,6 @@ input:focus {
 	.flickity-page-dots li {
 		padding: 0px;
 	}
-	/*conetent: sign up section*/
 	.sign-up {
 		padding: 3.57rem 2px 0 2px;
 		max-width: 47.36rem;
