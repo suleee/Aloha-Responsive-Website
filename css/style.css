@@ -453,6 +453,7 @@ ul {
 
 .item-product h3 {
 	padding: 10px 0 10px 0;
+	font-size: 18px;
 }
 
 .item-list li {
@@ -516,8 +517,9 @@ ul {
 .sign-p {
 	margin: 1rem auto;
 	font-size: 1.2rem;
-	line-height: 2.5rem;
+	line-height: 2.1rem;
 	color: white;
+	padding: 0 20px;
 	font-family: 'ralewaylight_Web', 'Helvetica', sans-serif;
 	text-shadow: 0.07rem 0.07rem 0.21rem #888888;
 }
